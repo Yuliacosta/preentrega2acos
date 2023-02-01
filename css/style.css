@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 
 
-#botonera{
-    
-    
-}
 #botonera img{
-    width: 200px;
+    width: 100px;
+    padding-left: 10%;
 }
 
 #botonera ul li a{
-    text-decoration: none;
     color: bisque;
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-family: 'Roboto', sans-serif;
+    font-weight: bolder; /*letra negrita de la nav*/
+    font-style: italic;
 }
 
 #botonera ul li a:hover{
-    color: black;
+    color: rgb(213, 161, 236);
+    text-decoration: underline;
+    
 }
 
 
@@ -29,22 +29,75 @@ body{
 .back{
     color: white;
 }
+
 .bg-violet{
-    background-color:  rgb(223, 102, 207);
+    background-color:  antiquewhite; /*color de botón solicitar*/
+}
+
+.bg-violet:hover{
+    background-color:  rgb(213, 161, 236); /*segundo color de boton solicitar*/
     border-end-end-radius: 4px;
 }
 
-.tipoAnimation{
-    link
+.wow{
+    display: flex;
+    justify-content: center; /*Centrado de Servicios*/
+    color: bisque;
+    text-decoration: underline; /*subrayado Servicios*/
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card img{
+ background-color: black;
+ border-radius: 15%;
+ border-style:hidden; /*bordes circulares img*/
+}
+.card{
+    background-color:rgb(255, 224, 167 , 0.5); /*background imagenes*/
+    margin: 5%; /*margen entre imagenes*/
+}
+
+--------------------
+.formulario{
+}
+/*formulario*/
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+    text-decoration: underline;
+    justify-content: left;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+.titulo{
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    background-color: rgb(255, 236, 207, 0.2);
+}
+
+.pulse{
+    color: antiquewhite;
+}
+
+#titulo{
+    font-family: 'Times New Roman', Times, serif !important;
 }
 
 .wow{
-    color: white;
+    display: flex;
+    justify-content: center; /*Centrado de Servicios*/
+    color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(211, 55, 211, 0.5);
 }
 
-.card-img{
-    border-right: 15px;
-    border-radius: 10px;
-    background-color: black;
- 
+.img{
+    height: 100%;
+    width: 100%;
 }
