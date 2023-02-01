@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+
+#botonera{
+    
+    
+}
+#botonera img{
+    width: 200px;
+}
+
+#botonera ul li a{
+    text-decoration: none;
+    color: bisque;
+    font-size: 1.1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+#botonera ul li a:hover{
+    color: black;
+}
+
+
+body{
+    background-image: url(../img/fondo.jpg);
+    background-attachment: fixed;
+}
+
+.back{
+    color: white;
+}
+.bg-violet{
+    background-color:  rgb(223, 102, 207);
+    border-end-end-radius: 4px;
+}
+
+.tipoAnimation{
+    link
+}
+
+.wow{
+    color: white;
+}
+
+.card-img{
+    border-right: 15px;
+    border-radius: 10px;
+    background-color: black;
+ 
+}
