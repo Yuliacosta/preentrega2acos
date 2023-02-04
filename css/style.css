@@ -101,3 +101,16 @@ body{
     height: 100%;
     width: 100%;
 }
+
+@media screen and (max-width:376) {
+    
+    body { 
+        margin-top: 4rem;
+    }
+.header-main{
+    height: initial;
+}
+header row img{
+
+}
+}
