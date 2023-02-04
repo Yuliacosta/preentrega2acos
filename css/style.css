@@ -114,3 +114,16 @@ header row img{
 
 }
 }
+
+#botoneraServ img{
+    width: 100px;
+    padding-left: 10%;
+}
+
+#botonera ul li a{
+    color: bisque;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder; /*letra negrita de la nav*/
+    font-style: italic;
+}
